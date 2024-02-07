@@ -1,0 +1,11 @@
+[flake8]
+ignore = C101, Q000, Q003, A003, A001, F401
+exclude = 
+    .git,
+    .venv,
+    migrations
+filename = *.py
+accept-encodings = utf-8
+inline-quotes = single
+max-complexity = 10
+max-line-length = 119
