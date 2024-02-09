@@ -2,6 +2,10 @@ FROM python:3.11-alpine
 
 WORKDIR /hookly
 
+ENV PYTHONUNBUFFERED 1
+
+ENV PYTHONDONTWRITEBYTECODE 1
+
 COPY ./requirements-dev.txt /hookly/requirements-dev.txt
 
 
